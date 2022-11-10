@@ -1,20 +1,26 @@
 public class Main {
     public static void main(String[] args) {
-        fitnessTracker account1 = new fitnessTracker("Dave", 1995, "davej@gmail.com","+380645678944", "Sunchez", "67"
-                , " 197/4", "4000");
-        fitnessTracker account2 = new fitnessTracker("John", 1997, "johnybigpenis@gmail.com","+380645643534", "Doo", "90"
-                , " 197/4", "8000");
-        fitnessTracker account3 = new fitnessTracker("Vitek", 1990, "kaif228@gmail.com","+382345678944", "Krutpy", "77"
-                , " 197/3", "11000");
-        String firstAccount = account1.personalAccountInfo();
-        System.out.println(firstAccount);
-        String secondAccount = account2.personalAccountInfo();
-        System.out.println(secondAccount);
-        String thirdAccount = account3.personalAccountInfo();
-        System.out.println(thirdAccount);
-
-
-
-
+    new fitnessTracker("Dave", 30, 06,1997, "hayman@gmail.com", "+380636459878", "Bebe",
+         70, 120, 10000).printAccountInfo();
+    new fitnessTracker("Victor", 10, 07,1993, "victorthekraker@gmail.com", "+380936459321", "Huev",
+                80, 110, 11000).printAccountInfo();
+    new fitnessTracker("Dany", 22, 06,1990, "dannychleny@gmail.com", "+380676459823", "Mishkov",
+                50, 117, 3000).printAccountInfo();
+    fitnessTracker account1 = new fitnessTracker("Bob", 1, 01,1991, "bobbyfloppy@gmail.com", "+380558765432", "Hoppy",
+            60, 111, 7000);
+    account1.printAccountInfo();
+    account1.setSurname("Salyami");
+    account1.setWeight(110);
+    account1.setPressure(140);
+    account1.setSteps(1000);
+    account1.printAccountInfo();
+    fitnessTracker account2 = new fitnessTracker("Katyha", 4, 10,1997, "katyhapluha@gmail.com", "+380630062332", "Chotkay",
+            50, 140, 20243);
+    account2.printAccountInfo();
+    account2.setSurname("Ebash");
+    account2.setWeight(53);
+    account2.setPressure(120);
+    account2.setSteps(18987);
+    account2.printAccountInfo();
     }
 }

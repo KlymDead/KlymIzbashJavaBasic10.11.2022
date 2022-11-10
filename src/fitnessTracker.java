@@ -1,21 +1,44 @@
 public class fitnessTracker {
     private final String name;
-    private final int birthday;
+    private final int dayOfBirth;
+    private final int monthOfBirth;
+    private final int yearOfBirth;
     private final String email;
     private final String number;
     public String surname;
-    public String weight;
-    public String pressure;
-    public String steps;
-    private int age = 0;
-    private int year = 2020;
+    public int weight;
+    public int pressure;
+    public int steps;
+    private int age;
+
+    public fitnessTracker(String name, int dayOfBirth, int monthOfBirth, int yearOfBirth, String email, String number, String surname, int weight, int pressure, int steps) {
+        this.name = name;
+        this.dayOfBirth = dayOfBirth;
+        this.monthOfBirth = monthOfBirth;
+        this.yearOfBirth = yearOfBirth;
+        this.email = email;
+        this.number = number;
+        this.surname = surname;
+        this.weight = weight;
+        this.pressure = pressure;
+        this.steps = steps;
+        this.age = 2020 - yearOfBirth;
+    }
 
     public String getName() {
         return name;
     }
 
-    public int getBirthday() {
-        return birthday;
+    public int getDayOfBirth() {
+        return dayOfBirth;
+    }
+
+    public int getMonthOfBirth() {
+        return monthOfBirth;
+    }
+
+    public int getYearOfBirth() {
+        return yearOfBirth;
     }
 
     public String getEmail() {
@@ -26,37 +49,59 @@ public class fitnessTracker {
         return number;
     }
 
+    public String getSurname() {
+        return surname;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public int getPressure() {
+        return pressure;
+    }
+
+    public int getSteps() {
+        return steps;
+    }
+
     public int getAge() {
         return age;
     }
 
-
-    public fitnessTracker(String name, int birthday, String email, String number, String surname, String weight, String pressure, String steps) {
-        this.name = name;
-        this.birthday = birthday;
-        this.email = email;
-        this.number = number;
+    public void setSurname(String surname) {
         this.surname = surname;
-        this.weight = weight;
-        this.pressure = pressure;
-        this.steps = steps;
-        if (birthday < year) {
-            age = year - birthday;
-
-        } else {
-            System.out.println("To Young");
-        }
     }
-    public String personalAccountInfo() {
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public void setPressure(int pressure) {
+        this.pressure = pressure;
+    }
+
+    public void setSteps(int steps) {
+        this.steps = steps;
+    }
+    public void printAccountInfo(){
+        System.out.println(this);
+    }
+
+    @Override
+    public String toString() {
         return "fitnessTracker{" +
                 "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", age=" + age +'\'' +
+                ", dayOfBirth=" + dayOfBirth +
+                ", monthOfBirth=" + monthOfBirth +
+                ", yearOfBirth=" + yearOfBirth +
                 ", email='" + email + '\'' +
                 ", number='" + number + '\'' +
-                ", weight='" + weight + '\'' +
-                ", pressure='" + pressure + '\'' +
-                ", steps='" + steps + '\'' +
+                ", surname='" + surname + '\'' +
+                ", weight=" + weight +
+                ", pressure=" + pressure +
+                ", steps=" + steps +
+                ", age=" + age +
                 '}';
     }
 }
