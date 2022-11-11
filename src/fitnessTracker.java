@@ -10,7 +10,7 @@ public class fitnessTracker {
     public int pressure;
     public int steps;
     private int age;
-
+    //constructor
     public fitnessTracker(String name, int dayOfBirth, int monthOfBirth, int yearOfBirth, String email, String number, String surname, int weight, int pressure, int steps) {
         this.name = name;
         this.dayOfBirth = dayOfBirth;
@@ -24,7 +24,7 @@ public class fitnessTracker {
         this.steps = steps;
         this.age = 2020 - yearOfBirth;
     }
-
+    //Getters
     public String getName() {
         return name;
     }
@@ -68,7 +68,7 @@ public class fitnessTracker {
     public int getAge() {
         return age;
     }
-
+    //Setters
     public void setSurname(String surname) {
         this.surname = surname;
     }
@@ -84,10 +84,10 @@ public class fitnessTracker {
     public void setSteps(int steps) {
         this.steps = steps;
     }
+    //Outputs
     public void printAccountInfo(){
         System.out.println(this);
     }
-
     @Override
     public String toString() {
         return "fitnessTracker{" +
