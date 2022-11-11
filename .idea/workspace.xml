@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05e07bd8-67d0-4530-b3b0-76c2b4c5b570" name="Changes" comment="Final Project">
+    <list default="true" id="05e07bd8-67d0-4530-b3b0-76c2b4c5b570" name="Changes" comment="add some comment">
+      <change afterPath="$PROJECT_DIR$/src/privateFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/privateOnly.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fitnessTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fitnessTracker.java" afterDir="false" />
@@ -54,7 +56,8 @@
       <updated>1668068963111</updated>
       <workItem from="1668068965273" duration="9127000" />
       <workItem from="1668097291374" duration="149000" />
-      <workItem from="1668152664272" duration="1494000" />
+      <workItem from="1668152664272" duration="1704000" />
+      <workItem from="1668169051668" duration="3208000" />
     </task>
     <task id="LOCAL-00001" summary="first try of program">
       <created>1668073555225</created>
@@ -70,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668076934479</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add some comment">
+      <created>1668154194037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668154194037</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +101,18 @@
     <MESSAGE value="first try of programm" />
     <MESSAGE value="first try of program" />
     <MESSAGE value="Final Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Project" />
+    <MESSAGE value="add some comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some comment" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fitnessTracker.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
