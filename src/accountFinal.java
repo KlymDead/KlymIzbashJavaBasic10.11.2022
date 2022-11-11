@@ -1,4 +1,4 @@
-public class privateFinal {
+public class accountFinal {
     private final String name;
     private final int dayOfBirth;
     private final int monthOfBirth;
@@ -6,7 +6,7 @@ public class privateFinal {
     private final String email;
     private final String number;
 
-    public privateFinal (String name, int dayOfBirth, int monthOfBirth, int yearOfBirth, String email, String number){
+    public accountFinal (String name, int dayOfBirth, int monthOfBirth, int yearOfBirth, String email, String number){
         this.name = name;
         this.dayOfBirth = dayOfBirth;
         this.monthOfBirth = monthOfBirth;

@@ -1,11 +1,11 @@
-public class privateOnly extends privateFinal {
+public class account extends accountFinal {
     public String surname;
     public int weight;
     public int pressure;
     public int steps;
     private int age;
 
-    public privateOnly(String name, int dayOfBirth, int monthOfBirth, int yearOfBirth, String email, String number, String surname, int weight, int pressure, int steps) {
+    public account(String name, int dayOfBirth, int monthOfBirth, int yearOfBirth, String email, String number, String surname, int weight, int pressure, int steps) {
         super(name, dayOfBirth, monthOfBirth, yearOfBirth, email, number);
         this.surname = surname;
         this.weight = weight;
