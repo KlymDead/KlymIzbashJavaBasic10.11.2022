@@ -1,29 +1,39 @@
 public class Main {
-    public static void main(String[] args) {
-    new account("Dave", 30, 06,1997, "hayman@gmail.com", "+380636459878", "Bebe",
-         70, 120, 10000).printAccountInfo();
-    new account("Victor", 10, 07,1993, "victorthekraker@gmail.com", "+380936459321", "Huev",
-                80, 110, 11000).printAccountInfo();
-    new account("Dany", 22, 06,1990, "dannychleny@gmail.com", "+380676459823", "Mishkov",
-                50, 117, 3000).printAccountInfo();
+    public static void main(String[] args){
+    account user = new account("Bob", "loshov",
+            new date(10,8,1997),
+            new contacts("bob@gmail.com", "+380636956784"),
+            new fitInfo(70,140, 3123));
+    System.out.println(user);
 
-    account account1 = new account("Bob", 1, 01,1991, "bobbyfloppy@gmail.com", "+380558765432", "Hoppy",
-            60, 111, 7000);
-    account1.printAccountInfo();
-    account1.setSurname("Salyami");
-    account1.setWeight(110);
-    account1.setPressure(140);
-    account1.setSteps(1000);
-    account1.printAccountInfo();
+        account user2 = new account("John", "Salami",
+                new date(4,7,1995),
+                new contacts("john@gmail.com", "+380636236784"),
+                new fitInfo(80,120, 10123));
+        System.out.println(user2);
 
-    account account2 = new account("Katyha", 4, 10,1997, "katyhapluha@gmail.com", "+380630062332", "Chotkay",
-            50, 140, 20243);
-    account2.printAccountInfo();
-    account2.setSurname("Ebash");
-    account2.setWeight(53);
-    account2.setPressure(120);
-    account2.setSteps(18987);
-    account2.printAccountInfo();
+        account user3 = new account("Anna", "Vernaya",
+                new date(9,2,1994),
+                new contacts("anna@gmail.com", "+380636956743"),
+                new fitInfo(50,110, 13123));
+        System.out.println(user3);
+
+        account user4 = new account("Torvald", "Great",
+                new date(18,5,1990),
+                new contacts("viking@gmail.com", "+380636956090"),
+                new fitInfo(90,100, 17123));
+        System.out.println(user4);
+        user4.setFit(new fitInfo(80,120,890));
+        System.out.println(user4);
+
+        account user5 = new account("Loki", "Asgard",
+                new date(6,6,666),
+                new contacts("badboy@gmail.com", "+387594303123"),
+                new fitInfo(70,200, 15123));
+        System.out.println(user5);
+        user5.setFit(new fitInfo(40,70,111890));
+        System.out.println(user5);
     }
+
 
 }

@@ -1,52 +1,47 @@
-public class account  {
+public class account {
     private final String name;
-    private final int dayOfBirth;
-    private final int monthOfBirth;
-    private final int yearOfBirth;
-    private final String email;
-    private final String number;
+
+    private date birthDate;
+    private contacts contactsInfo;
+    private fitInfo fit;
     public String surname;
-    public int weight;
-    public int pressure;
-    public int steps;
     private int age;
 
-    public account(String name, int dayOfBirth, int monthOfBirth, int yearOfBirth, String email, String number, String surname, int weight, int pressure, int steps) {
+    public account(String name, String surname, date birthDate, contacts contactsInfo, fitInfo fit) {
         this.name = name;
-        this.dayOfBirth = dayOfBirth;
-        this.monthOfBirth = monthOfBirth;
-        this.yearOfBirth = yearOfBirth;
-        this.email = email;
-        this.number = number;
         this.surname = surname;
-        this.weight = weight;
-        this.pressure = pressure;
-        this.steps = steps;
-        this.age = 2020 - yearOfBirth;
+        this.birthDate = birthDate;
+        this.contactsInfo = contactsInfo;
+        this.fit = fit;
+        this.age = 2020 - birthDate.getYearOfBirth();
     }
 
     public String getName() {
         return name;
     }
 
-    public int getDayOfBirth() {
-        return dayOfBirth;
+    public date getBirthDate() {
+        return birthDate;
     }
 
-    public int getMonthOfBirth() {
-        return monthOfBirth;
+    public void setBirthDate(date birthDate) {
+        this.birthDate = birthDate;
     }
 
-    public int getYearOfBirth() {
-        return yearOfBirth;
+    public contacts getContactsInfo() {
+        return contactsInfo;
     }
 
-    public String getEmail() {
-        return email;
+    public void setContactsInfo(contacts contactsInfo) {
+        this.contactsInfo = contactsInfo;
     }
 
-    public String getNumber() {
-        return number;
+    public fitInfo getFit() {
+        return fit;
+    }
+
+    public void setFit(fitInfo fit) {
+        this.fit = fit;
     }
 
     public String getSurname() {
@@ -57,52 +52,19 @@ public class account  {
         this.surname = surname;
     }
 
-    public int getWeight() {
-        return weight;
-    }
-
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
-
-    public int getPressure() {
-        return pressure;
-    }
-
-    public void setPressure(int pressure) {
-        this.pressure = pressure;
-    }
-
-    public int getSteps() {
-        return steps;
-    }
-
-    public void setSteps(int steps) {
-        this.steps = steps;
-    }
-
     public int getAge() {
         return age;
     }
 
 
-
-    public void printAccountInfo() {
-        System.out.println(this);
-    }
     @Override
     public String toString() {
-        return "fitnessTracker{" +
-                "name='" + name +
-                ", dayOfBirth=" + dayOfBirth +
-                ", monthOfBirth=" + monthOfBirth +
-                ", yearOfBirth=" + yearOfBirth +
-                ", email='" + email +
-                ", number='" + number +
-                ", surname='" + surname +
-                ", weight=" + weight +
-                ", pressure=" + pressure +
-                ", steps=" + steps +
+        return "account{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", birthDate=" + birthDate +
+                ", contactsInfo=" + contactsInfo +
+                ", fit=" + fit +
                 ", age=" + age +
                 '}';
     }

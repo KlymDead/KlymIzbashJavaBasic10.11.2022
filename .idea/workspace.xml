@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05e07bd8-67d0-4530-b3b0-76c2b4c5b570" name="Changes" comment="some changes with names of apps">
+    <list default="true" id="05e07bd8-67d0-4530-b3b0-76c2b4c5b570" name="Changes" comment="new try">
+      <change afterPath="$PROJECT_DIR$/src/contacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fitInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fitTrackerBasik/account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fitTrackerBasik/fitTrackerMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +61,7 @@
       <workItem from="1668097291374" duration="149000" />
       <workItem from="1668152664272" duration="1704000" />
       <workItem from="1668169051668" duration="4577000" />
+      <workItem from="1668242425768" duration="12444000" />
     </task>
     <task id="LOCAL-00001" summary="first try of program">
       <created>1668073555225</created>
@@ -90,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668172715979</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new try">
+      <created>1668242679187</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668242679187</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +129,7 @@
     <MESSAGE value="add some comment" />
     <MESSAGE value="new programm with 2 classes" />
     <MESSAGE value="some changes with names of apps" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes with names of apps" />
+    <MESSAGE value="new try" />
+    <option name="LAST_COMMIT_MESSAGE" value="new try" />
   </component>
 </project>
