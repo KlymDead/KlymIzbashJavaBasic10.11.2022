@@ -1,4 +1,10 @@
-public class account extends accountFinal {
+public class account  {
+    private final String name;
+    private final int dayOfBirth;
+    private final int monthOfBirth;
+    private final int yearOfBirth;
+    private final String email;
+    private final String number;
     public String surname;
     public int weight;
     public int pressure;
@@ -6,12 +12,41 @@ public class account extends accountFinal {
     private int age;
 
     public account(String name, int dayOfBirth, int monthOfBirth, int yearOfBirth, String email, String number, String surname, int weight, int pressure, int steps) {
-        super(name, dayOfBirth, monthOfBirth, yearOfBirth, email, number);
+        this.name = name;
+        this.dayOfBirth = dayOfBirth;
+        this.monthOfBirth = monthOfBirth;
+        this.yearOfBirth = yearOfBirth;
+        this.email = email;
+        this.number = number;
         this.surname = surname;
         this.weight = weight;
         this.pressure = pressure;
         this.steps = steps;
         this.age = 2020 - yearOfBirth;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getDayOfBirth() {
+        return dayOfBirth;
+    }
+
+    public int getMonthOfBirth() {
+        return monthOfBirth;
+    }
+
+    public int getYearOfBirth() {
+        return yearOfBirth;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getNumber() {
+        return number;
     }
 
     public String getSurname() {
@@ -50,9 +85,7 @@ public class account extends accountFinal {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
+
 
     public void printAccountInfo() {
         System.out.println(this);
@@ -60,17 +93,17 @@ public class account extends accountFinal {
     @Override
     public String toString() {
         return "fitnessTracker{" +
-                "name='" + getName() + '\'' +
-                ", dayOfBirth=" + getDayOfBirth() +
-                ", monthOfBirth=" + getMonthOfBirth() +
-                ", yearOfBirth=" + getYearOfBirth() +
-                ", email='" + getEmail() + '\'' +
-                ", number='" + getNumber() + '\'' +
-                ", surname='" + getSurname() + '\'' +
-                ", weight=" + getWeight() +
-                ", pressure=" + getPressure() +
-                ", steps=" + getSteps() +
-                ", age=" + getAge() +
+                "name='" + name +
+                ", dayOfBirth=" + dayOfBirth +
+                ", monthOfBirth=" + monthOfBirth +
+                ", yearOfBirth=" + yearOfBirth +
+                ", email='" + email +
+                ", number='" + number +
+                ", surname='" + surname +
+                ", weight=" + weight +
+                ", pressure=" + pressure +
+                ", steps=" + steps +
+                ", age=" + age +
                 '}';
     }
 }

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05e07bd8-67d0-4530-b3b0-76c2b4c5b570" name="Changes" comment="new programm with 2 classes">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/privateFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/accountFinal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/privateOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/account.java" afterDir="false" />
+    <list default="true" id="05e07bd8-67d0-4530-b3b0-76c2b4c5b570" name="Changes" comment="some changes with names of apps">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <workItem from="1668068965273" duration="9127000" />
       <workItem from="1668097291374" duration="149000" />
       <workItem from="1668152664272" duration="1704000" />
-      <workItem from="1668169051668" duration="3612000" />
+      <workItem from="1668169051668" duration="4577000" />
     </task>
     <task id="LOCAL-00001" summary="first try of program">
       <created>1668073555225</created>
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668172426818</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="some changes with names of apps">
+      <created>1668172715979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668172715979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +113,7 @@
     <MESSAGE value="Final Project" />
     <MESSAGE value="add some comment" />
     <MESSAGE value="new programm with 2 classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="new programm with 2 classes" />
+    <MESSAGE value="some changes with names of apps" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes with names of apps" />
   </component>
 </project>
